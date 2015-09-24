@@ -1,7 +1,29 @@
-body {
-  background-color: grey;
+@font-color: white;
 
+h1 {
+  font-weight: 800;
+  color: @font-color;
 }
-  .container {
-    background-color: white;
+body {
+  background-color: #f4f4f4;
+}
+
+img {
+  width: inherit;  /* This makes the next two lines work in IE8. */
+  max-width: 100%; /* Add !important if needed. */
+  height: auto;    /* Add !important if needed. */
+}
+
+.home-header {
+  background-color: #5c9eff;
+  .heading {
+    text-align: center;
+    text-transform: uppercase;
   }
+}
+
+.main-content {
+  margin-top: 50px;
+  text-align: center;
+  background-color: white;
+}
