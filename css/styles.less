@@ -1,7 +1,10 @@
 @font-color: white;
+a {
+  color: white;
+}
 
 h1 {
-  font-weight: 800;
+  font-weight: 300;
   color: @font-color;
 }
 body {
@@ -15,15 +18,46 @@ img {
 }
 
 .home-header {
-  background-color: #5c9eff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 380px;
+  background-image: url("../images/home_bground.jpg");
   .heading {
     text-align: center;
     text-transform: uppercase;
+    margin-top: 270px;
   }
 }
 
 .main-content {
-  margin-top: 50px;
+  .home {
+    margin-top: 20px;
+    a {
+      color: blue;
+    }
+  }
+}
+
+.nav-tabs {
+  border: none;
+}
+.owl-carousel {
   text-align: center;
-  background-color: white;
+  margin-top: 50px;
+}
+
+.footer {
+  margin-top: 60px;
+  background-color: #EED;
+
+  .footer-text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+}
+
+blockquote {
+  background-color: #EED;
 }
