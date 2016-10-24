@@ -1,4 +1,4 @@
-# test
+# Mockup-site
 
 This is a mockup of a website using CSS/LESS/Bootstrap3/HTML and OWL Carousel.  
 
